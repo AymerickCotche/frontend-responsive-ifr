@@ -2,26 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.hamburger-line {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hamburger-line--scroll {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 2px;
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-in-out;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hamburger-line--active:nth-child(1) {
+  transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger-line--active:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-line--active:nth-child(3) {
+  transform: translate3d(0, -9px, 0) rotate(-45deg);
 }

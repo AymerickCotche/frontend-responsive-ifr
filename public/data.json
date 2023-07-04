@@ -1,0 +1,275 @@
+[
+  {
+    "id": 0,
+    "email": "logan.roy@waystar.com",
+    "firstname": "Logan",
+    "lastname": "Roy",
+    "password": "25bln974",
+    "street": "11 avenue des Pirouettes",
+    "zipcode": "97460",
+    "country": "La Réunion",
+    "payments": {
+      "method": "Chèques",
+      "periodicity": "Mensuel"
+    },
+    "notes": [
+      {
+        "id": 0,
+        "title": "03/07/2023 absence",
+        "message": "Absence injustifié de Connor Roy"
+      },
+      {
+        "id": 1,
+        "title": "05/07/2023 présence allergènes",
+        "message": "Framboises, prévenez votre enfant s'il est allergique"
+      },
+      {
+        "id": 2,
+        "title": "10/07/2023 invitation",
+        "message": "Repas de fin d'année, les responsables d'élèves sont conviés"
+      }
+    ],
+    "contacts": [
+      {
+        "id": 0,
+        "me": true,
+        "message": "Bonjour, je voudrais régulariser l'absence de Connor."
+      },
+      {
+        "id": 1,
+        "me": false,
+        "message": "Bonjour M. Roy, pouvez-vous me donner la raison de son absence svp ?"
+      }
+    ],
+    "children": [
+      {
+        "id": 0,
+        "firstname": "Connor",
+        "lastname": "Roy",
+        "class": "3eme 5",
+        "naissance": "12/07/2008",
+        "présences": [
+          {
+            "id": 0,
+            "jour": "03/07/2023",
+            "wasHere": false
+          },
+          {
+            "id": 1,
+            "jour": "04/07/2023",
+            "wasHere": false
+          },
+          {
+            "id": 2,
+            "jour": "05/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 3,
+            "jour": "06/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 4,
+            "jour": "07/07/2023",
+            "wasHere": null
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "firstname": "Kendall",
+        "lastname": "Roy",
+        "class": "4eme 2",
+        "naissance": "25/05/2009",
+        "présences": [
+          {
+            "id": 0,
+            "jour": "03/07/2023",
+            "wasHere": true
+          },
+          {
+            "id": 1,
+            "jour": "04/07/2023",
+            "wasHere": true
+          },
+          {
+            "id": 2,
+            "jour": "05/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 3,
+            "jour": "06/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 4,
+            "jour": "07/07/2023",
+            "wasHere": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "firstname": "Roman",
+        "lastname": "Roy",
+        "class": "5eme 2",
+        "naissance": "08/11/2010",
+        "présences": [
+          {
+            "id": 0,
+            "jour": "03/07/2023",
+            "wasHere": true
+          },
+          {
+            "id": 1,
+            "jour": "04/07/2023",
+            "wasHere": false
+          },
+          {
+            "id": 2,
+            "jour": "05/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 3,
+            "jour": "06/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 4,
+            "jour": "07/07/2023",
+            "wasHere": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "firstname": "Shioban",
+        "lastname": "Roy",
+        "class": "6eme 6",
+        "naissance": "21/02/2011",
+        "présences": [
+          {
+            "id": 0,
+            "jour": "03/07/2023",
+            "wasHere": true
+          },
+          {
+            "id": 1,
+            "jour": "04/07/2023",
+            "wasHere": true
+          },
+          {
+            "id": 2,
+            "jour": "05/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 3,
+            "jour": "06/07/2023",
+            "wasHere": null
+          },
+          {
+            "id": 4,
+            "jour": "07/07/2023",
+            "wasHere": null
+          }
+        ]
+      }
+    ],
+    "menus": [
+      {
+        "id": 0,
+        "date": "03/07/2023",
+        "jour" : "Lundi",
+        "entrées": [
+          "Noix de pécan sur lit de verdure",
+          "Salade choux carottes"
+        ],
+        "plats": [
+          "Rougail de Saumon gros piment",
+          "Homard flambé au whisky Haiwaien"
+        ],
+        "desserts": [
+          "Tiramisu du chef",
+          "Gâteau basque"
+        ]
+
+      },
+      {
+        "id": 1,
+        "date": "04/07/2023",
+        "jour" : "Mardi",
+        "entrées": [
+          "Canapés aux saumon du mont Fuji",
+          "Betteraves rosée rose de Bulgarie"
+        ],
+        "plats": [
+          "Carry de Sanglier fraise des bois",
+          "Crustacés subsahariens à la liqueur d'orange"
+        ],
+        "desserts": [
+          "Crême brûlée",
+          "Saint-Honoré"
+        ]
+
+      },
+      {
+        "id": 2,
+        "date": "05/07/2023",
+        "jour" : "Mercredi",
+        "entrées": [
+          "Éclatés de noix de cajou sur son fleuve de crême anglaise",
+          "Framboisier salé des îles"
+        ],
+        "plats": [
+          "Macaroni sauce caviar de Naples",
+          "Crudité de légumes vert au poulet antique"
+        ],
+        "desserts": [
+          "Glace au fruits rouges d'occitanie orientale",
+          "Sundae beurre de cacahouete"
+        ]
+
+      },
+      {
+        "id": 3,
+        "date": "06/07/2023",
+        "jour" : "Jeudi",
+        "entrées": [
+          "Noix de pécan sur lit de verdure",
+          "Salade choux carottes"
+        ],
+        "plats": [
+          "Rougail de Saumon gros piment",
+          "Homard flambé au whisky Haiwaien"
+        ],
+        "desserts": [
+          "Tiramisu du chef",
+          "Gâteau basque"
+        ]
+
+      },
+      {
+        "id": 4,
+        "date": "07/07/2023",
+        "jour" : "Vendredi",
+        "entrées": [
+          "Aubergine à la plancha et jambon de Bayonne",
+          "Brocoli à la muscade indonésienne"
+        ],
+        "plats": [
+          "Sauté de crevette parsemé de parmesan persien",
+          "Grillé de Saumon aux kiwi d'Andalousie"
+        ],
+        "desserts": [
+          "Sorbet coco",
+          "Yahourt multifruits"
+        ]
+
+      }
+    ]
+  }
+]
