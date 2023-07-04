@@ -124,10 +124,10 @@ export default function Home() {
         <div className='bg-blue-200 flex-1  lg:w-[70%] md:m-auto p-5 flex flex-col md:flex-row md:flex-wrap gap-4'>
 
         <div className='flex-[2]'>
-          <div className='bg-red-200 border rounded-lg p-2 mb-4'>
+          <div className='bg-red-200 border rounded-lg p-4 mb-4'>
             <h2 className='text-red-800 font-semibold text-xl text-center'>Gérer vos informations</h2>
             <h3 className='underline underline-offset-4 text-bold font-medium'>Mes informations</h3>
-            <div className='ml-md-5'>
+            <div className='ml-md-5 mb-2'>
               <ul>
                 <li>
                   Prénom: {user.firstname}
@@ -147,7 +147,7 @@ export default function Home() {
               </ul>
             </div>
             <h3 className='underline underline-offset-4 text-bold font-medium'>Informations de paiements</h3>
-            <div className='ml-md-5'>
+            <div className='ml-md-5 mb-2'>
               <ul>
                 <li>
                   Méthode de paiement: {user.payments.method}
@@ -163,7 +163,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='bg-red-200 border rounded-lg p-2'>
+          <div className='bg-red-200 border rounded-lg p-4'>
             <h2 className='text-red-800 font-semibold text-xl text-center'>Gérer vos pensionnaires</h2>
 
             {jsxPensionnaires}
@@ -224,7 +224,7 @@ export default function Home() {
 
               {jsxContacts}
               <div className='flex'>
-                <input type="text" className='md:flex-1'  placeholder='tapez votre message' onChange={handleContactChange}/>
+                <input type="text" className='md:flex-1 pl-2'  placeholder='tapez votre message' onChange={handleContactChange}/>
                 <button className='bg-yellow-200 text-sm hover:bg-blue-200 px-2' onClick={handleSubmitContact}>envoyer</button>
               </div>
             </div>
@@ -253,7 +253,7 @@ export default function Home() {
           <label className='text-center mb-5'>
             <p className='mb-1'>Mot de passe</p>
             <input
-              type="text"
+              type="password"
               name="password"
               value={formLogin.password}
               onChange={handleInputChange}

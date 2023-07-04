@@ -20,15 +20,15 @@ export default function Header() {
       <div className='hidden md:block'>
         <h1 className="text-3xl text-center font-bold">Espace Restauration</h1>
         <nav>
-          <ul className="flex gap-2">
+          <ul className="flex gap-4">
             <li>
-              Accueil
+              <Link href='/'>Accueil</Link>
             </li>
             <li>
-              Gestion pensionnaire
+              <Link href='/#'>Gestion pensionnaire</Link>
             </li>
             <li>
-              Gestion des paiements
+              <Link href='/#'>Gestion des paiements</Link>
             </li>
           </ul>
         </nav>
