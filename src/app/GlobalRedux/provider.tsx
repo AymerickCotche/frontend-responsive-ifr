@@ -5,8 +5,6 @@ import { store } from './store';
 import { ReactNode } from 'react'
 
 type FooProps = {
-  name: 'foo'
-  // look here 👇
   children: ReactNode
 }
 
